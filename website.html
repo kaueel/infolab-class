@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- A tag TITLE no html muda aquele titulo que aparece na aba do navegador! -->
+    <title>Bootstrap Example</title>
+
+    <!-- Aqui tem algumas tags de configuração do html,
+        essas tags farão o download de alguns arquivos que
+        estamos usando para dar um estilo a mais no projeto -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- aqui onde declaramos alguns estilos únicos ao projeto -->
+    <style>
+        .post {
+            text-align: center;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<!-- aqui onde fica o corpo do nosso site, toda a estrutura e tals -->
+<body>
+<!-- Esse é o nosso cabeçalho, contem toda a parte superior do nosso site! -->
+<div class="jumbotron text-center header">
+    <h1>Olá, este é o header!</h1>
+</div>
+
+<!-- Aqui onde está os posts do nosso blog! -->
+<div class="container">
+    <div class="row">
+
+        <!-- esse é um post! -->
+        <div class="col-sm-4 post">
+            <h3 class="titulo">Post 1</h3>
+        </div>
+
+        <!-- esse é outro post! -->
+        <div class="col-sm-4 post">
+            <h3 class="titulo">Post 2</h3>
+        </div>
+
+        <!-- e esse é mais um post! -->
+        <div class="col-sm-4 post">
+            <h3 class="titulo">Post 3</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Esse é a parte de baixo do site -->
+<div class="jumbotron text-center footer">
+    <h3>Olá, este é o footer!</h3>
+</div>
+
+</body>
+</html>
